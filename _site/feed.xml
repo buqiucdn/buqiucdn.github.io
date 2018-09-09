@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>于志腾的技术专栏</title>
+    <description></description>
+    <link>http://localhost:4001/</link>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 09 Sep 2018 18:12:13 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Sep 2018 18:12:13 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>GitHub快速的搭建个人博客到个性化设计</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#搭建方式&quot; id=&quot;markdown-toc-搭建方式&quot;&gt;搭建方式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+由于服务器到期了，公司一直忙，腾讯云一直给我发短信提示，我也没有管结果你们懂的，坚持写的博客没有了，当时的博客还是自己一手写的呢！从页面到后端逻辑。周六日无聊，那就在搞一下吧，见证一下，一次性成功！
+
+&lt;h2 id=&quot;搭建方式&quot;&gt;搭建方式&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    方式一： GitHub Pages + Hexo 的方式
+  &lt;/li&gt;
+  &lt;li&gt;
+    方式二：GitHub Pages + jekyll 的方式
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2018/09/09/jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/09/09/jekyll/</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
