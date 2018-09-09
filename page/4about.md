@@ -11,7 +11,6 @@ type: page
 
 ## 关于我
 
-
 <div><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2337462660,1057875743&fm=26&gp=0.jpg">
 </div>
 
