@@ -6,7 +6,6 @@ icon: heart
 type: page
 ---
 
-
 * content
 {:toc}
 
@@ -20,6 +19,7 @@ type: page
     <meta name="theme-color" content="#06999e">
         <meta name="description" content="iOS开发,技术博客,随笔,小说"/>
     <meta name="keywords" content="iOS开发,技术博客,随笔,小说,iOS,产品"/>
+	<title>关于我 &#8211; Yi&#039;mouleng</title>
 <link rel="alternate" type="application/rss+xml" title="Yi&#039;mouleng &raquo; Feed" href="https://yimouleng.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Yi&#039;mouleng &raquo; 评论Feed" href="https://yimouleng.com/comments/feed/" />
 <link rel='stylesheet' id='wp-block-library-css'  href='https://pic.yimouleng.com/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
@@ -29,7 +29,7 @@ type: page
 <link rel='stylesheet' id='ripples-css'  href='https://pic.yimouleng.com/wp-content/themes/Material/assets/material/css/ripples.min.css?ver=0.5.10' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='https://pic.yimouleng.com/wp-content/themes/Material/assets/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 <link rel='stylesheet' id='nprogress-css'  href='https://pic.yimouleng.com/wp-content/themes/Material/assets/nprogress/nprogress.min.css?ver=0.2.0' type='text/css' media='all' />
-<link rel='stylesheet' id='style-css'  href='../css/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://pic.yimouleng.com/wp-content/themes/Material/assets/style/style.min.css?ver=1.0.0' type='text/css' media='all' />
 <link rel='stylesheet' id='main-css'  href='https://pic.yimouleng.com/wp-content/themes/Material/assets/style/main.min.css?ver=1.0.0' type='text/css' media='all' />
 <link rel='stylesheet' id='theme-css'  href='https://pic.yimouleng.com/wp-content/themes/Material/style.css?ver=1.0.0' type='text/css' media='all' />
 <style id='theme-inline-css' type='text/css'>
@@ -274,15 +274,14 @@ body.custom-background { background-color: #f4f4f4; }
 </head>
 
 
-<div class="blog-post material-page ">
-        <div class="container profile-page">
+<div class="container profile-page">
                 <div class="col-xs-6 col-xs-offset-3">
                     <div class="profile">
                         <div class="avatar">
 					        <img alt="" src="https://cn.gravatar.com/avatar/00285d1f2605f9a09e89526dc88f24cf?s=160&amp;d=identicon&amp;r=g" srcset="https://cn.gravatar.com/avatar/00285d1f2605f9a09e89526dc88f24cf?s=320&amp;d=identicon&amp;r=g 2x" class="avatar avatar-160 photo img-circle img-responsive img-raised" height="160" width="160">                        </div>
                         <div class="name">
                             <h3 class="title">青盲</h3>
-                            <h6>只有你足够努力，才能开起来毫不费力</h6>
+                            <h6>只有背后的加倍努力，才能看起来毫不费力</h6>
 
 					                                        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1148727869&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" class="btn btn-just-icon profile-page-qq"><i class="fa fa-qq"></i><div class="ripple-container"></div></a>
 					        
@@ -297,18 +296,31 @@ body.custom-background { background-color: #f4f4f4; }
                     </div>
                 </div>
                 <div class="col-xs-2 follow">
+                    <button data-action="ding" data-id="917" class="btn btn-fab btn-primary btn-content specsZan " rel="tooltip" data-original-title="目前有10人喜欢我的博客">
+				        <i class="material-icons">favorite_border</i>                    </button>
                 </div>
 
 			
+    <article id="post-917" class="section section-text">
+        <div class="row">
 			            <div class="col-md-8 col-md-offset-2 page-content-wrap">
-              <p><b>简介<br><br>
-欢迎来到我的博客，本人PHP攻城狮，同时也在学习其他语言的路上（PYTHON，HTML5，Go等），喜欢运动，生在山东，活在北京，建立这个博客，写下憋足的文字，来记录生活、学习路上的点点滴滴.
+                <ul class="breadcrumb wp_breadcrumb"><li><a href="https://yimouleng.com"><i class="fa fa-home"></i>Home</a></li><li class="active">关于我</li></ul><p><b>简介<br>
+</b><br>
+欢迎到来，本人php攻城狮，同时也在学习其他语言的路上（PYTHON，HTML5，GO等），爱好运动，生在山东，活在北京，建立这个博客，写下憋足的文字，来记录生活、学习路上的点点滴滴。
 <p style="text-align: right;">—— 于志腾, 2017年4月17日</p>
 <p><strong>联系</strong></p>
 <ul>
-<li>如果您想要联系我，可以<code>Email</code>我：<a href="mailto:15510937782@163.com" target="_blank" rel="external noopener">15510937782@163.com</a></li>
+<li>如果您想要联系我，可以<code>Email</code>我：<a href="mailto:15510937782@163.com" target="_blank" rel="external noopener">于志腾@gmail.com</a></li>
 </ul>
 <p><strong>其他<br>
-<p><strong><a href="https://github.com/buqiucdn" target="_blank" rel="external noopener">Github：buqiucdn</a></strong></p>
-<p>本人很喜欢Github，同时也喜欢上传一些开源代码；<br>
+<p><strong><a href="https://github.com/buqiucdn" target="_blank" rel="external noopener">Github：yuzhiteng</a></strong></p>
+
+
+友情链接
+
+[啦啦](https://buqiucdn.github.io/) \|
+
+## Comments
+
+
 {% include comments.html %}
