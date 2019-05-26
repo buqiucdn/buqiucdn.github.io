@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="facaf6c1-cbfa-4d34-885c-db89b4b9b361" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/4about.md" beforeDir="false" afterPath="$PROJECT_DIR$/page/4about.md" afterDir="false" />
-    </list>
+    <list default="true" id="facaf6c1-cbfa-4d34-885c-db89b4b9b361" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/page/4about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="233">
+              <first_editor relative-caret-position="71">
                 <caret line="283" column="51" selection-start-line="283" selection-start-column="51" selection-end-line="283" selection-end-column="51" />
               </first_editor>
               <second_editor />
@@ -212,12 +207,12 @@
       <updated>1536400397299</updated>
       <workItem from="1536400407421" duration="12803000" />
       <workItem from="1553332259260" duration="5406000" />
-      <workItem from="1553388286786" duration="845000" />
+      <workItem from="1553388286786" duration="1045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19054000" />
+    <option name="totallyTimeSpent" value="19254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -384,7 +379,7 @@
     <entry file="file://$PROJECT_DIR$/page/4about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="233">
+          <first_editor relative-caret-position="71">
             <caret line="283" column="51" selection-start-line="283" selection-start-column="51" selection-end-line="283" selection-end-column="51" />
           </first_editor>
           <second_editor />
