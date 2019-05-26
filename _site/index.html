@@ -146,14 +146,14 @@
             
               <li>
                 <h2>
-                  <a class="post-link" href="/2018/09/10/jekyll/">Python 快速入门-数据结构</a>
+                  <a class="post-link" href="/2019/05/20/jekyll/">python 帮助你表白 520</a>
                 </h2>
                 <div class="label">
                     <div class="label-card">
-                        <i class="fa fa-calendar"></i>2018-09-10
+                        <i class="fa fa-calendar"></i>2019-05-20
                     </div>
                     <div class="label-card">
-                        <i class="fa fa-user"></i>Yzt
+                        <i class="fa fa-user"></i>YztSon
                         
                     </div>
                     <div class="label-card">
@@ -196,20 +196,255 @@
                 </div>
                 <div class="excerpt">
                     <ul id="markdown-toc">
-  <li><a href="#讲述内容" id="markdown-toc-讲述内容">讲述内容</a></li>
+  <li><a href="#代码" id="markdown-toc-代码">代码</a></li>
+  <li><a href="#安装包" id="markdown-toc-安装包">安装包</a></li>
+  <li><a href="#效果" id="markdown-toc-效果">效果</a></li>
+  <li><a href="#成功" id="markdown-toc-成功">成功</a></li>
 </ul>
 
-<p>随着技术的不断的发展，python的适应场景越来越多，有事越来越明显，接下来一起我说一下自己的学习历程</p>
+<p>由于服务器到期了，公司一直忙，腾讯云一直给我发短信提示，我也没有管结果你们懂的，坚持写的博客没有了，当时的博客还是自己一手写的呢！从页面到后端逻辑。周六日无聊，那就在搞一下吧，见证一下，一次性成功！</p>
 
-<h2 id="讲述内容">讲述内容</h2>
+<h2 id="代码">代码</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python
+</span><span class="kn">import</span> <span class="nn">pylab</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">scipy</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1500</span><span class="p">)</span>
+<span class="n">y1</span> <span class="o">=</span> <span class="n">scipy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">y2</span> <span class="o">=</span> <span class="o">-</span><span class="mi">3</span><span class="o">*</span><span class="n">scipy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">color</span> <span class="o">=</span> <span class="s">'red'</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y2</span><span class="p">,</span><span class="n">color</span> <span class="o">=</span> <span class="s">'red'</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="o">-</span><span class="mf">2.5</span><span class="p">,</span><span class="mf">2.5</span><span class="p">])</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span><span class="s">'YZTXY 520 LOVE'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span><span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">'blue'</span><span class="p">,</span><span class="n">horizontalalignment</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="安装包">安装包</h2>
+
+<blockquote>
+  <p>sudo pip install matplotlib</p>
+</blockquote>
+
+<blockquote>
+  <p>sudo pip install scipy</p>
+</blockquote>
+
+<h2 id="效果">效果</h2>
+
+<p><img src="https://buqiucdn.github.io/upload/520.png" alt="image" /></p>
+
+<h2 id="成功">成功</h2>
+
+<p>快去表白吧！！！！</p>
+
+
+                </div>
+                <div class="read-all">
+                    <a  href="/2019/05/20/jekyll/"><i class="fa fa-newspaper-o"></i>Read All</a>
+                </div>
+                <hr>
+              </li>
+            
+              <li>
+                <h2>
+                  <a class="post-link" href="/2018/09/11/jekyll/">Python 快速入门-list遍历</a>
+                </h2>
+                <div class="label">
+                    <div class="label-card">
+                        <i class="fa fa-calendar"></i>2018-09-11
+                    </div>
+                    <div class="label-card">
+                        <i class="fa fa-user"></i>Yzt
+                        
+                    </div>
+                    <div class="label-card">
+                        
+                    </div>
+
+                    <div class="label-card">
+                    
+
+
+<!-- <span class="point">•</span> -->
+<span class="categories">
+  <i class="fa fa-th-list"></i>
+  
+    
+        <a href="/category/#python" title="Category: python" rel="category">python</a>
+    
+  
+
+  <!-- <span class="point">•</span> -->
+</span>
+
+
+                    </div>
+
+                    <div class="label-card">
+                    
+<!-- <span class="point">•</span> -->
+<span class="pageTag">
+  <i class="fa fa-tags"></i>
+  
+    
+        <a href="/tag/#python" title="Tag: python" rel="tag">python</a>
+    
+  
+
+</span>
+
+                    </div>
+                </div>
+                <div class="excerpt">
+                    <ul id="markdown-toc">
+  <li><a href="#数据结构" id="markdown-toc-数据结构">数据结构</a></li>
+</ul>
+
+<p>随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程</p>
+
+<h2 id="数据结构">数据结构</h2>
 <ul>
   <li>
-    <p>： 列表</p>
+    <p>列表</p>
   </li>
   <li>
-    <p>: 查找、插入、排序、删除</p>
+    <p>查找、插入、排序、删除</p>
   </li>
 </ul>
+
+<ol>
+  <li>列表遍历：</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">lista</span>  <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="s">'abc'</span><span class="p">,[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]]</span>
+
+<span class="c1"># 类型判断
+</span><span class="n">b</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">c</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">lista</span><span class="p">,(</span><span class="nb">int</span><span class="p">,</span><span class="nb">str</span><span class="p">,</span><span class="nb">list</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">val</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span><span class="nb">str</span><span class="p">)):</span>
+
+        <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">val</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
+        
+<span class="c1"># 结果
+</span><span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+<span class="mi">4</span>
+<span class="n">a</span>
+<span class="n">b</span>
+<span class="n">c</span>
+<span class="mi">4</span>
+<span class="mi">5</span>
+<span class="mi">6</span>
+
+</code></pre></div></div>
+
+
+                </div>
+                <div class="read-all">
+                    <a  href="/2018/09/11/jekyll/"><i class="fa fa-newspaper-o"></i>Read All</a>
+                </div>
+                <hr>
+              </li>
+            
+              <li>
+                <h2>
+                  <a class="post-link" href="/2018/09/10/jekyll/">Python 快速入门-数据结构之list</a>
+                </h2>
+                <div class="label">
+                    <div class="label-card">
+                        <i class="fa fa-calendar"></i>2018-09-10
+                    </div>
+                    <div class="label-card">
+                        <i class="fa fa-user"></i>Yzt
+                        
+                    </div>
+                    <div class="label-card">
+                        
+                    </div>
+
+                    <div class="label-card">
+                    
+
+
+<!-- <span class="point">•</span> -->
+<span class="categories">
+  <i class="fa fa-th-list"></i>
+  
+    
+        <a href="/category/#python" title="Category: python" rel="category">python</a>
+    
+  
+
+  <!-- <span class="point">•</span> -->
+</span>
+
+
+                    </div>
+
+                    <div class="label-card">
+                    
+<!-- <span class="point">•</span> -->
+<span class="pageTag">
+  <i class="fa fa-tags"></i>
+  
+    
+        <a href="/tag/#python" title="Tag: python" rel="tag">python</a>
+    
+  
+
+</span>
+
+                    </div>
+                </div>
+                <div class="excerpt">
+                    <ul id="markdown-toc">
+  <li><a href="#数据结构" id="markdown-toc-数据结构">数据结构</a></li>
+</ul>
+
+<p>随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程</p>
+
+<h2 id="数据结构">数据结构</h2>
+<ul>
+  <li>
+    <p>列表</p>
+  </li>
+  <li>
+    <p>查找、插入、排序、删除</p>
+  </li>
+</ul>
+
+<ol>
+  <li>定义方式：</li>
+</ol>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">list1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+<span class="nx">list2</span> <span class="o">=</span> <span class="nx">list</span><span class="p">(</span><span class="s1">'12345'</span><span class="p">)</span>
+<span class="nx">list3</span> <span class="o">=</span> <span class="nx">list</span><span class="p">(</span><span class="nx">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="nx">list4</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]]</span>
+<span class="nx">list5</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="s1">'1234'</span><span class="p">]</span>
+
+<span class="nx">print</span><span class="p">(</span><span class="nx">list3</span><span class="p">)</span>
+<span class="nx">print</span><span class="p">(</span><span class="nx">list2</span><span class="p">)</span>
+<span class="nx">print</span><span class="p">(</span><span class="nx">list1</span><span class="p">)</span>
+<span class="nx">print</span><span class="p">(</span><span class="nx">list4</span><span class="p">)</span>
+<span class="nx">print</span><span class="p">(</span><span class="nx">list5</span><span class="p">)</span>
+
+<span class="c1">//结果</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="p">[</span><span class="s1">'1'</span><span class="p">,</span> <span class="s1">'2'</span><span class="p">,</span> <span class="s1">'3'</span><span class="p">,</span> <span class="s1">'4'</span><span class="p">,</span> <span class="s1">'5'</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">'1234'</span><span class="p">]</span>
+
+</code></pre></div></div>
+
 
                 </div>
                 <div class="read-all">
@@ -320,7 +555,11 @@
                 </div>
                 <ul class="content-ul" recent>
                     
-                        <li><a href="/2018/09/10/jekyll/">Python 快速入门-数据结构</a></li>
+                        <li><a href="/2019/05/20/jekyll/">python 帮助你表白 520</a></li>
+                    
+                        <li><a href="/2018/09/11/jekyll/">Python 快速入门-list遍历</a></li>
+                    
+                        <li><a href="/2018/09/10/jekyll/">Python 快速入门-数据结构之list</a></li>
                     
                         <li><a href="/2018/09/09/jekyll/">GitHub快速的搭建个人博客到个性化设计</a></li>
                     
@@ -339,6 +578,15 @@
                         <a href="/category/#jekyll" class="categories-list-item" cate="jekyll">
                             <span class="name">
                                 jekyll
+                            </span>
+                            <span class="badge">2</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/category/#python" class="categories-list-item" cate="python">
+                            <span class="name">
+                                python
                             </span>
                             <span class="badge">2</span>
                         </a>
@@ -367,6 +615,13 @@
                       
                       
                       <a href="/tag/#jekyll" style="font-size: 9pt; color: #999;">jekyll</a>
+                    
+                      
+                      
+                      
+                      
+                      
+                      <a href="/tag/#python" style="font-size: 9pt; color: #999;">python</a>
                     
                 </div>
             </div>

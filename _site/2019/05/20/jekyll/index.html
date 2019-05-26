@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Python 快速入门-数据结构之list</title>
-    <meta name="description" content="  数据结构随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程数据结构      列表        查找、插入、排序、删除    定义方式：list1 = [1,2,3,4,5]list2 = list('12345')list3 = list(range(5...">
+    <title>python 帮助你表白 520</title>
+    <meta name="description" content="  代码  安装包  效果  成功由于服务器到期了，公司一直忙，腾讯云一直给我发短信提示，我也没有管结果你们懂的，坚持写的博客没有了，当时的博客还是自己一手写的呢！从页面到后端逻辑。周六日无聊，那就在搞一下吧，见证一下，一次性成功！代码#!/usr/bin/env pythonimport pylabimport...">
 
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
     <link rel="stylesheet" href="/css/main.css ">
-    <link rel="canonical" href="http://localhost:4001/2018/09/10/jekyll/">
+    <link rel="canonical" href="http://localhost:4001/2019/05/20/jekyll/">
     <link rel="alternate" type="application/rss+xml" title="于志腾的技术专栏" href="http://localhost:4001/feed.xml ">
 
 
@@ -139,15 +139,15 @@
 
         <div class="page clearfix" post>
     <div class="left">
-        <h1>Python 快速入门-数据结构之list</h1>
+        <h1>python 帮助你表白 520</h1>
         <div class="label">
 
             <div class="label-card">
-                <i class="fa fa-calendar"></i>2018-09-10
+                <i class="fa fa-calendar"></i>2019-05-20
             </div>
 
             <div class="label-card">
-                <i class="fa fa-user"></i>Yzt
+                <i class="fa fa-user"></i>YztSon
                 
             </div>
             <div class="label-card">
@@ -166,7 +166,7 @@
   <i class="fa fa-th-list"></i>
   
     
-        <a href="/category/#python" title="Category: python" rel="category">python</a>
+        <a href="/category/#jekyll" title="Category: jekyll" rel="category">jekyll</a>
     
   
 
@@ -183,8 +183,8 @@
   <i class="fa fa-tags"></i>
   
     
-        <!--a href="/tag/#python" title="Tag: python" rel="tag">python</a-->
-        <a href="/tag/#python" title="Tag: python" rel="tag">python</a>
+        <!--a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a-->
+        <a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a>
     
   
 
@@ -196,95 +196,46 @@
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         <ul id="markdown-toc">
-  <li><a href="#数据结构" id="markdown-toc-数据结构">数据结构</a></li>
+  <li><a href="#代码" id="markdown-toc-代码">代码</a></li>
+  <li><a href="#安装包" id="markdown-toc-安装包">安装包</a></li>
+  <li><a href="#效果" id="markdown-toc-效果">效果</a></li>
+  <li><a href="#成功" id="markdown-toc-成功">成功</a></li>
 </ul>
 
-<p>随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程</p>
+<p>由于服务器到期了，公司一直忙，腾讯云一直给我发短信提示，我也没有管结果你们懂的，坚持写的博客没有了，当时的博客还是自己一手写的呢！从页面到后端逻辑。周六日无聊，那就在搞一下吧，见证一下，一次性成功！</p>
 
-<h2 id="数据结构">数据结构</h2>
-<ul>
-  <li>
-    <p>列表</p>
-  </li>
-  <li>
-    <p>查找、插入、排序、删除</p>
-  </li>
-</ul>
+<h2 id="代码">代码</h2>
 
-<ol>
-  <li>定义方式：</li>
-</ol>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">list1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
-<span class="nx">list2</span> <span class="o">=</span> <span class="nx">list</span><span class="p">(</span><span class="s1">'12345'</span><span class="p">)</span>
-<span class="nx">list3</span> <span class="o">=</span> <span class="nx">list</span><span class="p">(</span><span class="nx">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
-<span class="nx">list4</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]]</span>
-<span class="nx">list5</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="s1">'1234'</span><span class="p">]</span>
-
-<span class="nx">print</span><span class="p">(</span><span class="nx">list3</span><span class="p">)</span>
-<span class="nx">print</span><span class="p">(</span><span class="nx">list2</span><span class="p">)</span>
-<span class="nx">print</span><span class="p">(</span><span class="nx">list1</span><span class="p">)</span>
-<span class="nx">print</span><span class="p">(</span><span class="nx">list4</span><span class="p">)</span>
-<span class="nx">print</span><span class="p">(</span><span class="nx">list5</span><span class="p">)</span>
-
-<span class="c1">//结果</span>
-<span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
-<span class="p">[</span><span class="s1">'1'</span><span class="p">,</span> <span class="s1">'2'</span><span class="p">,</span> <span class="s1">'3'</span><span class="p">,</span> <span class="s1">'4'</span><span class="p">,</span> <span class="s1">'5'</span><span class="p">]</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">'1234'</span><span class="p">]</span>
-
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python
+</span><span class="kn">import</span> <span class="nn">pylab</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">scipy</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1500</span><span class="p">)</span>
+<span class="n">y1</span> <span class="o">=</span> <span class="n">scipy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">y2</span> <span class="o">=</span> <span class="o">-</span><span class="mi">3</span><span class="o">*</span><span class="n">scipy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">color</span> <span class="o">=</span> <span class="s">'red'</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y2</span><span class="p">,</span><span class="n">color</span> <span class="o">=</span> <span class="s">'red'</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="o">-</span><span class="mf">2.5</span><span class="p">,</span><span class="mf">2.5</span><span class="p">])</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span><span class="s">'YZTXY 520 LOVE'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span><span class="n">fontweight</span><span class="o">=</span><span class="s">'bold'</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">'blue'</span><span class="p">,</span><span class="n">horizontalalignment</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<ol>
-  <li>相关操作函数</li>
-</ol>
+<h2 id="安装包">安装包</h2>
 
 <blockquote>
-  <ol>
-    <li>in/not in</li>
-    <li>max/min</li>
-    <li>sum</li>
-    <li>len</li>
-    <li>zip(对象)</li>
-  </ol>
+  <p>sudo pip install matplotlib</p>
 </blockquote>
 
-<ol>
-  <li>函数的应用</li>
-</ol>
+<blockquote>
+  <p>sudo pip install scipy</p>
+</blockquote>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<h2 id="效果">效果</h2>
 
-<span class="n">sum1</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="n">len1</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<p><img src="https://buqiucdn.github.io/upload/520.png" alt="image" /></p>
 
-<span class="k">print</span><span class="p">(</span><span class="n">sum1</span><span class="p">,</span><span class="n">len1</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-<span class="k">if</span> <span class="mi">2</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">'2 没在'</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">'2 在'</span><span class="p">)</span>
+<h2 id="成功">成功</h2>
 
-<span class="n">zips</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">zips</span><span class="p">)</span>
-
-<span class="c1"># 元组
-</span><span class="n">yz</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="s">'abc'</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">yz</span><span class="p">)</span>
-
-<span class="c1"># 结果
-</span><span class="mi">10</span> <span class="mi">4</span>
-<span class="mi">1</span>
-<span class="mi">2</span>
-<span class="mi">3</span>
-<span class="mi">4</span>
-<span class="mi">2</span> <span class="err">在</span>
-<span class="o">&lt;</span><span class="nb">zip</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x10823bac8</span><span class="o">&gt;</span>
-<span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="s">'a'</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s">'b'</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s">'c'</span><span class="p">)]</span>
-
-</code></pre></div></div>
+<p>快去表白吧！！！！</p>
 
 
         </article>
@@ -303,24 +254,24 @@
             
                 
                     
-                        
-                        <h2 id="similar_posts">Similar Posts</h2>
-                        <ul>
-                        
-                        <li class="relatedPost">
-                            <a href="/2018/09/11/jekyll/">Python 快速入门-list遍历
-                            
-                            </a>
-                        </li>
-                        
-                        
-                    
                 
             
         
             
             
                 
+                    
+                        
+                        <h2 id="similar_posts">Similar Posts</h2>
+                        <ul>
+                        
+                        <li class="relatedPost">
+                            <a href="/2018/09/09/jekyll/">GitHub快速的搭建个人博客到个性化设计
+                            
+                            </a>
+                        </li>
+                        
+                        
                     
                 
             
@@ -332,13 +283,11 @@
         <div class="post-recent">
     <div class="pre">
         
-        <p><strong>上一篇</strong> <a href="/2018/09/09/jekyll/">GitHub快速的搭建个人博客到个性化设计</a></p>
+        <p><strong>上一篇</strong> <a href="/2018/09/11/jekyll/">Python 快速入门-list遍历</a></p>
         
     </div>
     <div class="nex">
 
-        
-        <p><strong>下一篇</strong> <a href="/2018/09/11/jekyll/">Python 快速入门-list遍历</a></p>
         
     </div>
 </div>
