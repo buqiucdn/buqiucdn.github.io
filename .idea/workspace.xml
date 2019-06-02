@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="facaf6c1-cbfa-4d34-885c-db89b4b9b361" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_site/upload/intvo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-09-12-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-12-jekyll.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/09/09/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/09/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/09/10/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/10/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/09/11/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/11/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/05/20/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/20/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/category/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/upload/intv.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-12-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="422">
+              <first_editor relative-caret-position="350">
                 <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
               </first_editor>
               <second_editor />
@@ -162,8 +151,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="55" />
+    <option name="x" value="95" />
+    <option name="y" value="71" />
     <option name="width" value="1004" />
     <option name="height" value="652" />
   </component>
@@ -298,18 +287,18 @@
       <workItem from="1558865335166" duration="779000" />
       <workItem from="1558866425058" duration="21000" />
       <workItem from="1558922204522" duration="9000" />
-      <workItem from="1559462261068" duration="1182000" />
+      <workItem from="1559462261068" duration="1675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24242000" />
+    <option name="totallyTimeSpent" value="24735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="55" width="1004" height="652" extended-state="0" />
+    <frame x="95" y="71" width="1004" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29417878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36278588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="0" />
@@ -546,7 +535,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-12-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="422">
+          <first_editor relative-caret-position="350">
             <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
           </first_editor>
           <second_editor />
