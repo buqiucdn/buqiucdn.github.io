@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4001/</link>
     <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 May 2019 20:50:59 +0800</pubDate>
-    <lastBuildDate>Sun, 26 May 2019 20:50:59 +0800</lastBuildDate>
+    <pubDate>Sun, 02 Jun 2019 16:25:25 +0800</pubDate>
+    <lastBuildDate>Sun, 02 Jun 2019 16:25:25 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -57,6 +57,58 @@
         <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4001/2019/05/20/jekyll/</link>
         <guid isPermaLink="true">http://localhost:4001/2019/05/20/jekyll/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>python</category>
+        
+      </item>
+    
+      <item>
+        <title>Python 快速入门-变量</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#python中什么是变量&quot; id=&quot;markdown-toc-python中什么是变量&quot;&gt;Python中什么是变量&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#变量赋值&quot; id=&quot;markdown-toc-变量赋值&quot;&gt;变量赋值&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程
+
+&lt;h2 id=&quot;python中什么是变量&quot;&gt;Python中什么是变量&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+在Python中，变量的概念基本上和初中代数的方程变量是一致的。
+
+例如，对于方程式 y=x*x ，x就是变量。当x=2时，计算结果是4，当x=5时，计算结果是25。
+
+只是在计算机程序中，变量不仅可以是数字，还可以是任意数据类型。
+
+在Python程序中，变量是用一个变量名表示，变量名必须是大小写英文、数字和下划线（_）的组合，且不能用数字开头，比如
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;变量&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;是一个整数。&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;yzts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'花开'&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;变量&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yzts&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;是一个字符串。&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;在&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Python&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;中，等号&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;是赋值语句，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的变量，例如：&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# yzt是整数
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'YZTXY'&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# yzt变为字符串
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;变量赋值&quot;&gt;变量赋值&lt;/h2&gt;
+
+&lt;img src=&quot;https://buqiucdn.github.io/upload/intvo.png&quot; alt=&quot;image&quot; /&gt;
+
+</description>
+        <pubDate>Wed, 12 Sep 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2018/09/12/jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/09/12/jekyll/</guid>
         
         <category>python</category>
         

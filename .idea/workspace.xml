@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="facaf6c1-cbfa-4d34-885c-db89b4b9b361" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_site/upload/intv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/upload/intvo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-09-12-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-12-jekyll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/09/09/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/09/jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/09/10/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/10/jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/09/11/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/09/11/jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/05/20/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/20/jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/archive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/category/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/upload/intv.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-05-20-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="307">
-                <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="37" selection-end-column="51" />
+              <first_editor relative-caret-position="341">
+                <caret line="38" selection-start-line="38" selection-end-line="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-12-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="207">
-                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <first_editor relative-caret-position="422">
+                <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="816">
+              <first_editor relative-caret-position="475">
                 <caret line="48" selection-start-line="48" selection-end-line="48" />
               </first_editor>
               <second_editor />
@@ -151,9 +161,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="38" />
-    <option name="y" value="62" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="55" />
     <option name="width" value="1004" />
     <option name="height" value="652" />
   </component>
@@ -222,12 +232,13 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/upload" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_site/upload" />
+      <recent name="$PROJECT_DIR$/upload" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,15 +298,15 @@
       <workItem from="1558865335166" duration="779000" />
       <workItem from="1558866425058" duration="21000" />
       <workItem from="1558922204522" duration="9000" />
-      <workItem from="1559462261068" duration="404000" />
+      <workItem from="1559462261068" duration="1182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23464000" />
+    <option name="totallyTimeSpent" value="24242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="62" width="1004" height="652" extended-state="0" />
+    <frame x="15" y="55" width="1004" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29417878" />
@@ -477,16 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-jekyll.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="816">
-            <caret line="48" selection-start-line="48" selection-end-line="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -519,18 +520,34 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-05-20-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="307">
-            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="37" selection-end-column="51" />
+          <first_editor relative-caret-position="341">
+            <caret line="38" selection-start-line="38" selection-end-line="38" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-jekyll.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="475">
+            <caret line="48" selection-start-line="48" selection-end-line="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/upload/520.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/upload/intv.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-12-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="422">
+            <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
