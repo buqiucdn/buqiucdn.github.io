@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Python 快速入门-变量</title>
-    <meta name="description" content="  Python中什么是变量随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程Python中什么是变量在Python中，变量的概念基本上和初中代数的方程变量是一致的。例如，对于方程式 y=x*x ，x就是变量。当x=2时，计算结果是4，当x=5时，计算结果是25...">
+    <title>python之set运用</title>
+    <meta name="description" content="  搭建方式集合（set）是一个无序的不重复元素序列可以使用大括号 { } 或者 set() 函数创建集合，注意：创建一个空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。搭建方式bb = { s for s in a if s not in  'abc'}删除a.remove('aa...">
 
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
     <link rel="stylesheet" href="/css/main.css ">
-    <link rel="canonical" href="http://localhost:4001/2018/09/12/jekyll/">
+    <link rel="canonical" href="http://localhost:4001/2018/09/08/jekyll/">
     <link rel="alternate" type="application/rss+xml" title="于志腾的技术专栏" href="http://localhost:4001/feed.xml ">
 
 
@@ -141,15 +141,15 @@
 
         <div class="page clearfix" post>
     <div class="left">
-        <h1>Python 快速入门-变量</h1>
+        <h1>python之set运用</h1>
         <div class="label">
 
             <div class="label-card">
-                <i class="fa fa-calendar"></i>2018-09-12
+                <i class="fa fa-calendar"></i>2018-09-08
             </div>
 
             <div class="label-card">
-                <i class="fa fa-user"></i>Yzt
+                <i class="fa fa-user"></i>YztSon
                 
             </div>
             <div class="label-card">
@@ -198,42 +198,22 @@
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         <ul id="markdown-toc">
-  <li><a href="#python中什么是变量" id="markdown-toc-python中什么是变量">Python中什么是变量</a></li>
-  <li><a href="#变量赋值" id="markdown-toc-变量赋值">变量赋值</a></li>
+  <li><a href="#搭建方式" id="markdown-toc-搭建方式">搭建方式</a></li>
 </ul>
+<p>集合（set）是一个无序的不重复元素序列
+可以使用大括号 { } 或者 set() 函数创建集合，注意：创建一个空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。</p>
+<h2 id="搭建方式">搭建方式</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+bb = { s for s in a if s not in  'abc'}
 
-<p>随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程</p>
+删除
+a.remove('aa')
+添加多个
+a.update('dd')
+添加单个
+a.add('sss')
 
-<h2 id="python中什么是变量">Python中什么是变量</h2>
-
-<hr />
-
-<p>在Python中，变量的概念基本上和初中代数的方程变量是一致的。</p>
-
-<p>例如，对于方程式 y=x*x ，x就是变量。当x=2时，计算结果是4，当x=5时，计算结果是25。</p>
-
-<p>只是在计算机程序中，变量不仅可以是数字，还可以是任意数据类型。</p>
-
-<p>在Python程序中，变量是用一个变量名表示，变量名必须是大小写英文、数字和下划线（_）的组合，且不能用数字开头，比如</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">yzt</span> <span class="o">=</span> <span class="mi">123</span>
-<span class="err">变量</span><span class="n">yzt</span><span class="err">是一个整数。</span>
-
-<span class="n">yzts</span> <span class="o">=</span> <span class="s">'花开'</span>
-
-<span class="err">变量</span><span class="n">yzts</span><span class="err">是一个字符串。</span>
-
-<span class="err">在</span><span class="n">Python</span><span class="err">中，等号</span><span class="o">=</span><span class="err">是赋值语句，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的变量，例如：</span>
-
-<span class="n">yzt</span> <span class="o">=</span> <span class="mi">123</span>    <span class="c1"># yzt是整数
-</span><span class="k">print</span> <span class="n">yzt</span>
-<span class="n">yzt</span> <span class="o">=</span> <span class="s">'YZTXY'</span>   <span class="c1"># yzt变为字符串
-</span><span class="k">print</span> <span class="n">yzt</span>
 </code></pre></div></div>
-
-<h2 id="变量赋值">变量赋值</h2>
-
-<p><img src="https://buqiucdn.github.io/upload/intv1.png" alt="image" /></p>
 
 
         </article>
@@ -282,6 +262,22 @@
                     
                         
                         <li class="relatedPost">
+                            <a href="/2018/09/12/jekyll/">Python 快速入门-变量
+                            
+                            </a>
+                        </li>
+                        
+                        
+                    
+                
+            
+        
+            
+            
+                
+                    
+                        
+                        <li class="relatedPost">
                             <a href="/2018/09/11/jekyll/">Python 快速入门-list遍历
                             
                             </a>
@@ -315,22 +311,6 @@
                 
             
         
-            
-            
-                
-                    
-                        
-                        <li class="relatedPost">
-                            <a href="/2018/09/08/jekyll/">python之set运用
-                            
-                            </a>
-                        </li>
-                        
-                        
-                    
-                
-            
-        
         
             </ul>
         
@@ -338,13 +318,11 @@
         <div class="post-recent">
     <div class="pre">
         
-        <p><strong>上一篇</strong> <a href="/2018/09/11/jekyll/">Python 快速入门-list遍历</a></p>
-        
     </div>
     <div class="nex">
 
         
-        <p><strong>下一篇</strong> <a href="/2019/05/20/jekyll/">python 帮助你表白 520</a></p>
+        <p><strong>下一篇</strong> <a href="/2018/09/09/jekyll/">GitHub快速的搭建个人博客到个性化设计</a></p>
         
     </div>
 </div>

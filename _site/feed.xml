@@ -5,9 +5,48 @@
     <description></description>
     <link>http://localhost:4001/</link>
     <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Jun 2019 16:25:25 +0800</pubDate>
-    <lastBuildDate>Sun, 02 Jun 2019 16:25:25 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Jul 2019 15:36:03 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Jul 2019 15:36:03 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Ansible之安装</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#什么是ansible&quot; id=&quot;markdown-toc-什么是ansible&quot;&gt;什么是Ansible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ansible-的优势&quot; id=&quot;markdown-toc-ansible-的优势&quot;&gt;Ansible 的优势&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ansible-的安装&quot; id=&quot;markdown-toc-ansible-的安装&quot;&gt;Ansible 的安装&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+Ansible基础与安装
+&lt;h2 id=&quot;什么是ansible&quot;&gt;什么是Ansible&lt;/h2&gt;
+Ansiblie 是python中的一个套模块，系统中的一套自动化工具，可以用来作为系统管理、自动化命令等任务
+&lt;h2 id=&quot;ansible-的优势&quot;&gt;Ansible 的优势&lt;/h2&gt;
+ansible 的play_book模式，采用yaml配置，对于自动化执行一目了然
+
+&lt;h2 id=&quot;ansible-的安装&quot;&gt;Ansible 的安装&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;传统系统安装的方式，yum、apt-get&lt;/li&gt;
+  &lt;li&gt;通过python的方式&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install ansible 
+
+easy_install ansible
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+3.安装完成之后，在终端输入ansible如下图
+&lt;img src=&quot;https://buqiucdn.github.io/upload/ansible.png&quot; alt=&quot;image&quot; /&gt;
+
+</description>
+        <pubDate>Mon, 01 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2019/07/01/jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4001/2019/07/01/jekyll/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>python</category>
+        
+      </item>
     
       <item>
         <title>python 帮助你表白 520</title>
@@ -69,7 +108,6 @@
         <title>Python 快速入门-变量</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#python中什么是变量&quot; id=&quot;markdown-toc-python中什么是变量&quot;&gt;Python中什么是变量&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#变量赋值&quot; id=&quot;markdown-toc-变量赋值&quot;&gt;变量赋值&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 随着技术的不断的发展，python的应用场景越来越多，优势越来越明显，接下来一起我说一下自己的学习历程
@@ -100,10 +138,6 @@
 &lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'YZTXY'&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# yzt变为字符串
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yzt&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;变量赋值&quot;&gt;变量赋值&lt;/h2&gt;
-
-&lt;img src=&quot;https://buqiucdn.github.io/upload/intvo.png&quot; alt=&quot;image&quot; /&gt;
 
 </description>
         <pubDate>Wed, 12 Sep 2018 00:00:00 +0800</pubDate>
@@ -262,6 +296,38 @@
         
         
         <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>python之set运用</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#搭建方式&quot; id=&quot;markdown-toc-搭建方式&quot;&gt;搭建方式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+集合（set）是一个无序的不重复元素序列
+可以使用大括号 { } 或者 set() 函数创建集合，注意：创建一个空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。
+&lt;h2 id=&quot;搭建方式&quot;&gt;搭建方式&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+bb = { s for s in a if s not in  'abc'}
+
+删除
+a.remove('aa')
+添加多个
+a.update('dd')
+添加单个
+a.add('sss')
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 08 Sep 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2018/09/08/jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/09/08/jekyll/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>python</category>
         
       </item>
     
