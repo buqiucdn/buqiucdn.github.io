@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-12-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="318">
+              <first_editor relative-caret-position="226">
                 <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="50" />
               </first_editor>
               <second_editor />
@@ -79,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-07-03-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="497">
-                <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <first_editor relative-caret-position="195">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -307,12 +307,12 @@
       <workItem from="1559462261068" duration="1861000" />
       <workItem from="1560000493944" duration="828000" />
       <workItem from="1563001151132" duration="4145000" />
-      <workItem from="1563107404882" duration="2679000" />
+      <workItem from="1563107404882" duration="2922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32573000" />
+    <option name="totallyTimeSpent" value="32816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -579,7 +579,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-12-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="318">
+          <first_editor relative-caret-position="226">
             <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="50" />
           </first_editor>
           <second_editor />
@@ -599,8 +599,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-07-03-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="497">
-            <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <first_editor relative-caret-position="195">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
