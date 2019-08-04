@@ -79,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-08-09-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="48">
-                <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+              <first_editor relative-caret-position="220">
+                <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
               </first_editor>
               <second_editor />
             </state>
@@ -329,12 +329,12 @@
       <workItem from="1564908377244" duration="299000" />
       <workItem from="1564924166304" duration="509000" />
       <workItem from="1564924806876" duration="114000" />
-      <workItem from="1564924957356" duration="493000" />
+      <workItem from="1564924957356" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43190000" />
+    <option name="totallyTimeSpent" value="43304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -677,8 +677,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-08-09-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <first_editor relative-caret-position="220">
+            <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
           </first_editor>
           <second_editor />
         </state>
