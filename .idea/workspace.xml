@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="facaf6c1-cbfa-4d34-885c-db89b4b9b361" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-08-09-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-06-06-jekyll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-06-06-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-06-06-jekyll.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-06-jekyll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+              <first_editor relative-caret-position="272">
+                <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
               </first_editor>
               <second_editor />
             </state>
@@ -196,6 +196,7 @@
         <option value="$PROJECT_DIR$/_posts/2019-08-05-jekyll.md" />
         <option value="$PROJECT_DIR$/_posts/2019-08-07-jekyll.md" />
         <option value="$PROJECT_DIR$/_posts/2019-08-09-jekyll.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-06-jekyll.md" />
       </list>
     </option>
   </component>
@@ -329,15 +330,16 @@
       <workItem from="1564908377244" duration="299000" />
       <workItem from="1564924166304" duration="509000" />
       <workItem from="1564924806876" duration="114000" />
-      <workItem from="1564924957356" duration="786000" />
+      <workItem from="1564924957356" duration="1004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43483000" />
+    <option name="totallyTimeSpent" value="43701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20274636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -676,8 +678,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-06-jekyll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+          <first_editor relative-caret-position="272">
+            <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
           </first_editor>
           <second_editor />
         </state>
